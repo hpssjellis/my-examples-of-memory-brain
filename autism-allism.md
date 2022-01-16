@@ -68,7 +68,7 @@ https://www.cbc.ca/parents/learning/view/i-want-to-share-10-positive-traits-that
 
 
 
-## Alistic signs
+## Allistic signs
 
 People with the disorder speak in code. They say one thing, but mean something completely different.
  
