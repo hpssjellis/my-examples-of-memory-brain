@@ -12,10 +12,18 @@ Many people are showing increased signs of a condition known as Allism. Are you 
 All question answered from 0 to 9
 0 = the Allistic condition,  9 = the non-allistic condition<br>
 
-
+<script>
+ function myUpdate(myIn){
+    document.getElementById('myDiv01').innerHTML += myIn
+ 
+ } 
+  
+</script>
 1. 
 
 
 
+<input type=button value=update onclick="{myUpdate('Hello')}">
+<div id="myDiv01">...</div>
 
 
