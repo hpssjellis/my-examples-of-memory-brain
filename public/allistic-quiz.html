@@ -1,4 +1,4 @@
-<h6>version 0.0.5</h6>
+<h6>version 0.0.6</h6>
 
 <h2 Align=center>Allistic Quiz</h2>
 
@@ -13,6 +13,11 @@ All question answered from 0 to 9<br>
 0 = the Allistic condition,  9 = the non-allistic condition<br>
 
 <script>
+ 
+ myTotalAmount = 0
+ myPercent = 0
+ 
+ 
  function myUpdate(myIn){
     document.getElementById('myDiv01').innerHTML += myIn
  
@@ -20,7 +25,7 @@ All question answered from 0 to 9<br>
   
 </script>
 
-1. <select id="my01"  onSelect="{myUpdate(this.value)}" size=1>
+1. <select id="my01"  onSelection="{myUpdate(this.value)}" size=1>
     <option >
     <option value=0>0
     <option value=1>1
@@ -35,7 +40,7 @@ All question answered from 0 to 9<br>
 
 </select>
 
-
+<br><br>
 
 <input type=button value=update onclick="{myUpdate('Hello')}">
 <div id="myDiv01">...</div>
