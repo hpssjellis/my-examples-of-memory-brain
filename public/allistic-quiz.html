@@ -1,4 +1,4 @@
-<h6>version 0.0.10</h6>
+<h6>version 0.0.11</h6>
 
 <h2 Align=center>Allistic Quiz</h2>
 
@@ -25,8 +25,8 @@ All question answered from 0 to 9<br>
   console.log(myIn)
     myCount +=1
     myTotalAmount += myIn
-    myPercent = (myTotalAmount/myCount)*100
-    document.getElementById('myDiv01').innerHTML += 'Quiz: ' + myPercent + '%'
+    myPercent = (myTotalAmount/(myCount*9))*100
+    document.getElementById('myDiv01').innerHTML = 'Quiz: ' + myPercent + '%'
  
  } 
   
