@@ -1,4 +1,4 @@
-<h6>version 0.0.14</h6>
+<h6>version 0.0.15</h6>
 
 <h2 Align=center>Allistic Quiz</h2>
 
@@ -26,23 +26,16 @@ If your grade is below 50 you might be on the Allistic Spectrum.
     myTotalAmount = parseInt(myIn) + parseInt(myTotalAmount)
     console.log(myTotalAmount)
     myPercent = (myTotalAmount/(myCount*9))*100
-    document.getElementById('myDiv01').innerHTML = 'Quiz: ' + myPercent + '%'
+    document.getElementById('myDiv01').innerHTML = 'Quiz: ' + myPercent.toFixed(2) + '%'
  
  } 
   
 </script>
 <ol>
  
-<li> 0 = Expect eye contact,   9 avoid eye  contact.<br>
- 
-<select id="my01"  onChange="{myUpdate(this.value)}" size=1>
-   <option ><option value=0>0<option value=1>1<option value=2>2<option value=3>3<option value=4>4<option value=5>5
-   <option value=6>6<option value=7>7<option value=8>8<option value=9>9
-</select>
 
-<br><br>
  
-<li> 0 = Flexible around daily or monthly routines,   9 = Have excellent routines for doing things. <br>
+<li> 9 = Have excellent routines for doing things. 0 = Flexible around daily or monthly routines.<br>
  
 <select id="my02"  onChange="{myUpdate(this.value)}" size=1>
    <option ><option value=0>0<option value=1>1<option value=2>2<option value=3>3<option value=4>4<option value=5>5
@@ -53,7 +46,7 @@ If your grade is below 50 you might be on the Allistic Spectrum.
 
  
  
-<li> 0 = Like Lound sounds, hyper actions, childish   9 = Act business like or adult like. <br>
+<li>  9 = Adult like or acts Business like.  0 = childish, like loud sounds, hyperactive actions.    <br>
  
 <select id="my03"  onChange="{myUpdate(this.value)}" size=1>
    <option ><option value=0>0<option value=1>1<option value=2>2<option value=3>3<option value=4>4<option value=5>5
