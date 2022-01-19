@@ -1,4 +1,4 @@
-<h6>version 0.2.6</h6>
+<h6>version 0.2.7</h6>
 
 <h2 Align=center>Allistic Quiz</h2>
 
@@ -21,12 +21,26 @@ If your grade is below 50% you might be on the Allistic Spectrum.<br>
  myMaxQuestions = 3
 
  function showAll(){
+      // put the following in a for loop
       document.getElementById('myHide01').style.display = 'inline'
+      document.getElementById('myHide02').style.display = 'inline'
+      document.getElementById('myHide03').style.display = 'inline'
+      document.getElementById('myHide04').style.display = 'inline'
+      document.getElementById('myHide05').style.display = 'inline'
+      document.getElementById('myHide06').style.display = 'inline'
+      document.getElementById('myHide07').style.display = 'inline'
+      document.getElementById('myHide08').style.display = 'inline'
+      document.getElementById('myHide09').style.display = 'inline'
+      document.getElementById('myHide10').style.display = 'inline'
+      document.getElementById('myHide11').style.display = 'inline'
+      document.getElementById('myHide12').style.display = 'inline'
+      document.getElementById('myHide13').style.display = 'inline'
+      document.getElementById('myHide14').style.display = 'inline'
   }
  
  function myUpdate(myIn){
     // console.log(myIn)
-  if (myIn == '') {myIn = 5}
+  if (myIn == '') {myIn = 5; alert('For no choice we set 5')}
     myCount += 1
     myTotalAmount = parseInt(myIn) + parseInt(myTotalAmount)
     myPercent = (myTotalAmount/(myCount*9))*100
@@ -54,8 +68,8 @@ If your grade is below 50% you might be on the Allistic Spectrum.<br>
    <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
    <option value=3>3<option value=2>2<option value=1>1<option value=0>0
 </select>
-Score of 9 = Have excellent routines for doing things. 0 = Flexible around daily or monthly routines.<br>
-<div id="myHide01" style="color:yellow; background-color:lightblue; display:none;">This has lots of info</div>
+Score of 9 = Have excellent routines for doing things. 0 = Flexible around daily, monthly or yearly routines.<br>
+<div id="myHide01" style="color:yellow; background-color:lightblue; display:none;">Many Allistic people are totally fine changing their routine for any reason</div>
 
 
  
@@ -65,7 +79,7 @@ Score of 9 = Have excellent routines for doing things. 0 = Flexible around daily
    <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
    <option value=3>3<option value=2>2<option value=1>1<option value=0>0
 </select>
-Score of  9 = To the point. 0 = Convulted answers considering multiple points of view <br>
+Score of  9 = To the point answering questions. 0 = Convulted answers considering multiple points of view. <br>
 <div id="myHide02" style="color:yellow; background-color:lightblue; display:none;"></div> 
 
 
@@ -76,8 +90,9 @@ Score of  9 = To the point. 0 = Convulted answers considering multiple points of
    <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
    <option value=3>3<option value=2>2<option value=1>1<option value=0>0
 </select>
-Score of  9 = Very truthful, not effected by others opinions. 0 = Lies especial when socially motivated.<br>
-<div id="myHide03" style="color:yellow; background-color:lightblue; display:none;"></div> 
+Score of  9 = Very truthful, not effected by others opinions. 0 = Lies especial when socially motivated or pressured.<br>
+<div id="myHide03" style="color:yellow; background-color:lightblue; display:none;">When asked if they are having a nice day, many  
+ Allistic people will reply with "yes fine" even if they are feeling terrible</div> 
 
 
  
@@ -99,8 +114,8 @@ Score of  9 = Very truthful, not effected by others opinions. 0 = Lies especial 
    <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
    <option value=3>3<option value=2>2<option value=1>1<option value=0>0
 </select>
- Score of  9 = Business like. 0 = Very Emotional.<br>
- <div id="myHide05" style="color:yellow; background-color:lightblue; display:none;"></div>
+ Score of  9 = Business like, gets things done. 0 = Very Emotional, constantly needing attention, more likely to discus than do<br>
+ <div id="myHide05" style="color:yellow; background-color:lightblue; display:none;">Allistic people have difficulty making complex decisions</div>
 
 
  
