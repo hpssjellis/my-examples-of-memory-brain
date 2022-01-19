@@ -1,0 +1,235 @@
+<h6>version 0.2.10</h6>
+
+<h2 Align=center>Allistic Quiz</h2>
+
+
+Many people are showing some signs of a condition known as Allism. 
+Are you Allistic? Take this simple test. <br>
+If your grade is below 50% you might be on the Allistic Spectrum.<br>
+
+
+
+<img src="https://user-images.githubusercontent.com/5605614/149846127-299b39d5-77e3-45bc-ba88-6a08107b0ab6.png" width=500><br>
+
+<!-- 9 = the non-allistic condition, 0 = the Allistic condition,  <br>  -->
+
+<script>
+ 
+ myTotalAmount = 0
+ myCount = 0
+ myPercent = 0
+ myMaxQuestions = 3
+
+ function showAll(){
+      // put the following in a for loop
+      document.getElementById('myHide01').style.display = 'inline'
+      document.getElementById('myHide02').style.display = 'inline'
+      document.getElementById('myHide03').style.display = 'inline'
+      document.getElementById('myHide04').style.display = 'inline'
+      document.getElementById('myHide05').style.display = 'inline'
+      document.getElementById('myHide06').style.display = 'inline'
+      document.getElementById('myHide07').style.display = 'inline'
+      document.getElementById('myHide08').style.display = 'inline'
+      document.getElementById('myHide09').style.display = 'inline'
+      document.getElementById('myHide10').style.display = 'inline'
+      document.getElementById('myHide11').style.display = 'inline'
+      document.getElementById('myHide12').style.display = 'inline'
+      document.getElementById('myHide13').style.display = 'inline'
+      document.getElementById('myHide14').style.display = 'inline'
+  }
+ 
+ function myUpdate(myIn){
+    // console.log(myIn)
+  if (myIn == '') {myIn = 5; alert('For no choice we set 5')}
+    myCount += 1
+    myTotalAmount = parseInt(myIn) + parseInt(myTotalAmount)
+    myPercent = (myTotalAmount/(myCount*9))*100
+    console.log('myCount:'+ myCount + ', myTotalAmount:'+ myTotalAmount + ', myPercent:'+ myPercent.toFixed(2))
+    document.getElementById('myDivPercent01').innerHTML = 'Quiz: ' + myPercent.toFixed(2) + '%'
+    document.getElementById('myDivPercent02').innerHTML = 'Quiz: ' + myPercent.toFixed(2) + '%'
+    if (myCount >= myMaxQuestions){
+       showAll()
+    if (myPercent > 50 && myPercent < 60){alert('Wow, you are not Allistic! Does that feel good. Did you think that perhaps you might be Allistic? Hopefully you will be more simpathetic now to other people with Neurological conditions. By the way you should look up the term Allistic!')} 
+    }
+ 
+ } 
+  
+</script>
+
+
+<div id="myDivPercent02">...</div>
+
+
+<ol>
+ 
+
+ 
+<li>
+<select id="my01"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+Score of 9 = Have excellent routines for doing things. 0 = Flexible around daily, monthly or yearly routines.<br>
+<div id="myHide01" style="color:0029a5; background-color:bfbf14; display:none;">Many Allistic people are totally fine changing their routine for any reason</div>
+
+
+ 
+ 
+<br><br><li> 
+<select id="my02"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+Score of  9 = To the point answering questions. 0 = Convulted answers considering multiple points of view. <br>
+<div id="myHide02" style="color:0029a5; background-color:bfbf14; display:none;"></div> 
+
+
+ 
+ 
+<br><br><li> 
+ <select id="my03"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+Score of  9 = Very truthful, not effected by others opinions. 0 = Lies especial when socially motivated or pressured.<br>
+<div id="myHide03" style="color:0029a5; background-color:bfbf14; display:none;">When asked if they are having a nice day, many  
+ Allistic people will reply with "yes fine" even if they are feeling terrible</div> 
+
+
+ 
+ 
+<br><br><li>  
+ <select id="my04"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of  9 = Acts like an adult, likes quiet order around them.  0 = Acts like a child, likes loud sounds, action and hyperactivity.    <br>
+ <div id="myHide04" style="color:0029a5; background-color:bfbf14; display:none;"></div>
+
+
+ 
+ 
+ 
+<br><br><li> 
+ <select id="my05"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of  9 = Business like, gets things done. 0 = Very Emotional, constantly needing attention, more likely to discus than do<br>
+ <div id="myHide05" style="color:0029a5; background-color:bfbf14; display:none;">Allistic people have difficulty making complex decisions</div>
+
+
+ 
+ 
+ 
+<br><br><li> 
+ <select id="my06"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of  9 = Can get down to the work at hand even if it is repetitive. 0 = Frustrates easily with repetitive actions.<br>
+ <div id="myHide06" style="color:0029a5; background-color:bfbf14; display:none;"></div>
+
+
+
+  
+  
+<br><br><li> 
+ <select id="my07"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of  9 = Considered by others very smart at a few things. 0 = Doing so many things they do not master anything.<br>
+ <div id="myHide07" style="color:0029a5; background-color:bfbf14; display:none;"></div>
+
+
+   
+  
+    
+<br><br><li> 
+ <select id="my08"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of 9 = Consider people as they present themselves. 0 = Obsessed with how people feel and act .<br>
+ <div id="myHide08" style="color:0029a5; background-color:bfbf14; display:none;">Allistic people will often ask "How are you feeling? And some Allistic people will even care about your answer."</div>
+
+
+
+ 
+     
+<br><br><li> 
+ <select id="my09"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of 9 = Speak what they mean. 0 = People with the disorder often speak in code. 
+ They say one thing, but mean something completely different.<br>
+ <div id="myHide09" style="color:0029a5; background-color:bfbf14; display:none;">Allistic example from your wife: "Do you think I look fat?"</div>
+
+     
+ 
+
+ 
+   
+<br><br><li> 
+ <select id="my10"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of 9 = Do not judge or bully others and not part of any cliques. 0 = Constantly sterotyping based on their social criteria.<br>
+ <div id="myHide10" style="color:0029a5; background-color:bfbf14; display:none;"></div>
+
+ 
+ 
+ 
+ 
+   
+<br><br><li> 
+ <select id="my11"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of 9 = Passionate about a few specific things. 0 = Have passion for so many things they seem to not really care about anything.<br>
+ <div id="myHide11" style="color:0029a5; background-color:bfbf14; display:none;"></div> 
+
+ 
+ 
+   
+<br><br><li> 
+ <select id="my12"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of 9 = Have a strong sense of Justice. 0 = Able to break laws and rules based on their own social rules.<br>
+  <div id="myHide12" style="color:0029a5; background-color:bfbf14; display:none;"></div>
+
+   
+ 
+ 
+    
+<br><br><li> 
+ <select id="my13"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+ Score of 9 = Love the details of everthing they do. 0 = Not interested in the details always looking at the big picture.<br>
+  <div id="myHide13" style="color:0029a5; background-color:bfbf14; display:none;"></div>
+
+   
+ 
+ 
+ <br><br><li> 
+ <select id="my14"  onChange="{myUpdate(this.value)}" size=1>
+   <option ><option value=9>9<option value=8>8<option value=7>7<option value=6>6<option value=5>5<option value=4>4
+   <option value=3>3<option value=2>2<option value=1>1<option value=0>0
+</select>
+Score of 9 = Neat and tidy. 0 = Messy and appear lazy<br>
+ <div id="myHide14" style="color:0029a5; background-color:bfbf14; display:none;"></div>  
+ 
+
+ 
+<br><br>  </ol>
+
+<div id="myDivPercent01">...</div>
+
