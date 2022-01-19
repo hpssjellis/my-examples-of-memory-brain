@@ -1,4 +1,4 @@
-<h6>version 0.2.4</h6>
+<h6>version 0.2.5</h6>
 
 <h2 Align=center>Allistic Quiz</h2>
 
@@ -18,7 +18,7 @@ If your grade is below 50% you might be on the Allistic Spectrum.<br>
  myTotalAmount = 0
  myCount = 0
  myPercent = 0
- myMaxQuestions = 13
+ myMaxQuestions = 3
 
  function showAll(){
       document.getElementById('myHide01').innerHTML = 'This has lots of info'
@@ -26,6 +26,7 @@ If your grade is below 50% you might be on the Allistic Spectrum.<br>
  
  function myUpdate(myIn){
     // console.log(myIn)
+  if (myIn == '') {myIn = 5}
     myCount += 1
     myTotalAmount = parseInt(myIn) + parseInt(myTotalAmount)
     myPercent = (myTotalAmount/(myCount*9))*100
