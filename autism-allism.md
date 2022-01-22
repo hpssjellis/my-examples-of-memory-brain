@@ -179,4 +179,52 @@ https://www.alexlowery.co.uk/12-things-to-know-about-nts-non-autistic-people/
 
 
 
+# more allistic
+
+https://psychcentral.com/blog/aspie/2018/09/allism-spectrum-disorders-a-parody#Allism
+
+
+
+More Allistic quotes from the above (Parody)
+
+
+
+Marked Difficulties with Interpersonal/Social Relationships and Communication:
+Frequently imagines non-verbal cues are meant to indicate offense
+
+
+Pervasive difficulty with discussing topics of substance; often reduces conversations to superficial, trivial details (e.g. deflects discussions of meteorological patterns or climate change to the current, observable state of the weather)
+Allistic people tend to make judgments, form preferences, and imitate the most prevalent rhetoric and talking points of current issues; however, their political, social, religious, and cultural identity is based on the social structure of those in his or her immediate circle. 
+
+
+
+Superimposes imagined meaning, subtext, or connotation on factual statements. May even perceive compliments as insults or believe they can divine true context from the tone of others, even in the form of written text.
+
+
+Will lie or misrepresent themselves and their needs in order to appear aligned with others; will agree with the opinions of others so as to avoid the discomfort of being contradicted
+
+
+
+Feels a need to suppress desires and differences out of fear of discrimination; conversely, may discriminate against others on the basis of ability level, gender, race, sex, sexual orientation, religion, socioeconomic status, or ability level. While fully aware of these biases, will not admit to holding discriminatory beliefs or feelings of superiority.
+
+
+Omnipresent desire to have needs met by others persists into adulthood, expecting those around them to abandon their pursuits to spend time sitting in proximity to each other without engaging in productive discussion or interests.
+
+
+Over-inflated, superstitious view of personal abilities; believes self to be able to discern the character, beliefs, thoughts, and intentions of a person by looking into their eyes
+
+
+
+May demand collaborative work but be unable to cooperate; difficulty working alone
+
+
+
+Nave and gullible; easily persuaded by group-think, confirmation bias, advertisements, and emotional appeal
+
+
+Invades personal space, begins discussions with strangers without reading social cues that the person is disinterested in conversation, asks meaningless questions to which they do not want to know the answer
+
+
+
+
 
