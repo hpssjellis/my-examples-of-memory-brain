@@ -190,7 +190,9 @@ More Allistic quotes from the above (Parody)
 
 
 Marked Difficulties with Interpersonal/Social Relationships and Communication:
-Frequently imagines non-verbal cues are meant to indicate offense
+Frequently imagine that non-verbal cues have a deeper meaning than what is on the surface. 
+"Why are you going to the gym? 
+are you trying to impress me, cheat on me, are you going to leave me?"
 
 
 Pervasive difficulty with discussing topics of substance; often reduces conversations to superficial, trivial details (e.g. deflects discussions of meteorological patterns or climate change to the current, observable state of the weather)
