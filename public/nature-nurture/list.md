@@ -1,8 +1,8 @@
 # To Learn 
 
-'* = born skill. Nature
+'*' = born skill. Nature
   
-'@ = improvment with effort. Nuture
+'@' = improvment with effort. Nuture
 
 ### Question: What should everyone be taught and who should be identified and encourage based on born skills?
 
