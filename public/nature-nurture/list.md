@@ -1,6 +1,7 @@
 # To Learn 
 
 * = born skill. Nature
+  
 @ = improvment with effort. Nuture
 
 
