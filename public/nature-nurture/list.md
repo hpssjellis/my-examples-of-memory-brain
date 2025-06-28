@@ -1,3 +1,10 @@
+# To Learn 
+
+* = born skill. Nature
+@ = improvment with effort. Nuture
+
+
+
 .1000. Verbal Comprehension
 
 .1100. Vocabulary @
