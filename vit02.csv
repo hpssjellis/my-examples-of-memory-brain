@@ -1,0 +1,17 @@
+Nutrient/Substance,Solubility Type,"Key Half-Life for Re-dosing","Expected Range for Intermittent Dosing (Days)",Key Comment
+"**VITAMINS & ELECTROLYTES**",,,,
+"Vitamin C (Ascorbic Acid)",Water-Soluble,"~ 8 to 40 days",Daily,"Though the half-life is longer than other water-soluble vitamins, it's constantly being used (especially under stress/for salt absorption) and is often recommended daily."
+"Folate (B9)",Water-Soluble,"~ 4 months (Liver Stores)","2 to 4","The total body store is large, but the *functional* plasma half-life is quite short (hours), similar to the other B's. A **daily to every few days** approach is generally needed for consistent supply."
+Magnesium,"Electrolyte/Mineral","~ 42 days (Long-term Store)","1 to 2","While the total-body store (in bone) lasts weeks, the *blood* magnesium is tightly regulated, and the excess from a dose is rapidly excreted within **12 to 48 hours**."
+"Potassium & Calcium","Electrolyte/Mineral","~ 4 hours",Daily,"The body's need for these is critical and continuous. They are tightly regulated and rapidly excreted, meaning daily intake is essential."
+"Vitamin D (D3)",Fat-Soluble,"~ 15 days","7 to 14","This is the circulating active form's half-life. Its long half-life makes **weekly or bi-weekly** dosing a very sensible approach."
+"Vitamin K (MK-7)",Fat-Soluble,"~ 3 days","3 to 5","Vitamin K1 (short) and MK-7 (long) have different half-lives. MK-7's longer half-life makes **every few days** a good fit for cyclical dosing."
+"Vitamin A",Fat-Soluble,"~ 128 days","30 to 90","Highly fat-soluble, most of the dose is stored in the liver. Take caution with high doses due to accumulation. **Monthly** is a conservative choice."
+"Vitamin E (Alpha-Tocopherol)",Fat-Soluble,"~ Several days to weeks","5 to 10","Stored in fatty tissue. A large dose will maintain levels for an extended period, making a **weekly** interval a good choice."
+"**AMINO ACIDS & PERFORMANCE**",,,,
+"Essential Amino Acids (EAAs)",Amino Acid,"~ 5.5 hours (Individual AA in plasma)","<1 (Multiple Doses Daily)","Amino acids are rapidly metabolized or used for protein synthesis; plasma levels drop quickly. Dosing is typically **before, during, or after workouts, or spread throughout the day**."
+HMB (β-hydroxy-β-methylbutyrate),"Leucine Metabolite","~ 2.5 hours (Plasma)","<1 (Multiple Doses Daily)","To maintain peak anti-catabolic effects, the dose should be split into **2-3 daily doses**, as plasma levels return to baseline in ~9 hours."
+Creatine Monohydrate,"Amino Acid Derivative","~ 3 hours (Plasma)","1 to 2","While the plasma half-life is hours, the goal is *muscle saturation*. Once saturated, an every-day or every-other-day maintenance dose is often sufficient to counter the 1-2% daily muscle turnover."
+L-Carnitine,"Amino Acid Derivative","~ 17 to 60 hours (Plasma)","1 to 2","The longer half-life suggests an every-day dose is best for consistent plasma levels, but the effect on muscle tissue requires high and consistent intake."
+Collagen Peptides,"Protein Source","Varies (15 years for Type I structure)","1 (Daily)","Collagen in structure has a very long half-life, but the *supplement* is broken down into amino acids. Daily intake is recommended to ensure a constant supply of the specific aminos needed for synthesis."
+"Omega-3 Fatty Acids (EPA/DHA)",Fatty Acid,"~ 120 days (RBC Half-Life)","7 to 14","RBC levels (the better long-term measure) reflect long-term intake. Weekly dosing with a large amount is an effective way to maintain long-term tissue saturation."
