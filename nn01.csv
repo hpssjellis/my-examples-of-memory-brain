@@ -1,0 +1,9 @@
+Input node Output node Hidden layer nodes fixed (HLNF) Hidden layer nodes trainable (HLNT) Hidden layer nodes deep (HLMD)
+2 2 2 4 8
+3 3 3 9 10
+4 4 4 16 12
+5 5 5 25 14
+6 6 6 36 16
+7 7 7 49 18
+8 8 8 64 20
+9 9 9 81 22
