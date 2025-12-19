@@ -41,17 +41,16 @@ It is helpful to categorize global education into styles based on the **"Philoso
 * **Trade-off:** Rapidly rising to the top of world rankings, though heavily reliant on the country's digital infrastructure.
 
 ---
-
 ### Comparison Summary
 
-| Style | Key Value | Primary Goal |
-| :--- | :--- | :--- |
-| **Applied-Inquiry** | Critical Thinking | Innovation |
-| **Mastery-Rigor** | Academic Excellence | Discipline |
-| **Holistic-Equity** | Wellbeing | Equality |
-| **Dual-Vocational** | Practical Skills | Employment |
-| **Classical** | General Culture | Literacy |
-| **Digital-Literacy** | Tech Agility | Future-proofing |
+| Style | Key Value | Primary Goal | Key Countries |
+| :--- | :--- | :--- | :--- |
+| **Applied-Inquiry** | Critical Thinking | Innovation | Canada, USA, Australia |
+| **Mastery-Rigor** | Academic Excellence | Discipline | China, Singapore, S. Korea |
+| **Holistic-Equity** | Wellbeing | Equality | Finland, Norway, Denmark |
+| **Dual-Vocational** | Practical Skills | Employment | Germany, Switzerland, Austria |
+| **Classical** | General Culture | Literacy | France, Italy, Spain |
+| **Digital-Literacy** | Tech Agility | Future-proofing | Estonia, Netherlands |
 
 ---
 
