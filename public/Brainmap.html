@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: sans-serif; text-align: center; background-color: #f4f4f4; padding: 20px;">
+
+  <h1 style="color: #2c3e50;">Human Brain Explorer</h1>
+  <p>Click a button to see what that part of the brain does!</p>
+
+  <div style="margin-bottom: 20px;">
+    <button onclick="myShowInfo('Frontal Lobe', 'This is your logic center! It handles reasoning, planning, and your personality.')" style="padding: 10px; margin: 5px; cursor: pointer;">Frontal Lobe</button>
+    
+    <button onclick="myShowInfo('Temporal Lobe', 'This is the communication hub. It helps you understand language and remember things.')" style="padding: 10px; margin: 5px; cursor: pointer;">Temporal Lobe</button>
+    
+    <button onclick="myShowInfo('Occipital Lobe', 'This handles your vision. It processes everything you see!')" style="padding: 10px; margin: 5px; cursor: pointer;">Occipital Lobe</button>
+    
+    <button onclick="myShowInfo('Cerebellum', 'This controls your movement and balance. Essential for physical skills!')" style="padding: 10px; margin: 5px; cursor: pointer;">Cerebellum</button>
+    
+    <button onclick="myShowInfo('Amygdala', 'This is the emotional center. It helps you feel things like fear, joy, and empathy.')" style="padding: 10px; margin: 5px; cursor: pointer;">Amygdala</button>
+  </div>
+
+  <div id="myDisplayBox" style="background-color: white; border: 2px solid #2c3e50; padding: 20px; min-height: 100px; width: 60%; margin: 0 auto; border-radius: 10px;">
+    <h2 id="myPartName" style="margin-top: 0;">Select a Part</h2>
+    <p id="myPartDescription">Information will appear here.</p>
+  </div>
+
+  <script>
+    // This function updates the text on the screen
+    async function myShowInfo(myTitle, myText) {
+      // Find the elements on the page
+      const myTitleElement = document.getElementById('myPartName');
+      const myDescElement = document.getElementById('myPartDescription');
+      const myBox = document.getElementById('myDisplayBox');
+
+      // Update the text
+      myTitleElement.innerText = myTitle;
+      myDescElement.innerText = myText;
+
+      // Add a little color flash to show it updated
+      myBox.style.backgroundColor = "#e8f4fd";
+      
+      // Wait a tiny bit then change color back
+      await new Promise(myResolve => setTimeout(myResolve, 300));
+      myBox.style.backgroundColor = "white";
+    }
+  </script>
+
+</body>
+</html>
