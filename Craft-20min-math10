@@ -1,1 +1,22 @@
+ID,Ability,Category,Description
+1,Integer Operations,Functional,Adding and subtracting negative numbers without a calculator
+2,Order of Operations,Functional,Solving multi-step equations using PEMDAS or BEDMAS correctly
+3,Fraction Fluency,Functional,Adding and multiplying fractions with unlike denominators
+4,Variable Substitution,Cognitive,Replacing variables with values and simplifying the expression
+5,Distribution Logic,Functional,Correctly applying the distributive property across parentheses
+6,Combining Like Terms,Functional,Identifying and grouping terms with identical variables and powers
+7,One-Step Isolation,Functional,Isolating a variable using inverse operations in one move
+8,Two-Step Mastery,Cognitive,Solving equations in the form ax + b = c with perfect accuracy
+9,Exponent Laws,Functional,Simplifying products and quotients of powers with the same base
+10,Scientific Notation,Functional,Converting between standard form and scientific notation manually
+11,Rate of Change,Cognitive,Calculating the slope between two points on a coordinate plane
+12,Y-Intercept Identification,Functional,Finding where a line crosses the vertical axis from an equation
+13,Linear Graphing,Cognitive,Plotting a line accurately using only the slope and intercept
+14,Inequality Direction,Functional,Knowing when to flip the sign when multiplying by a negative
+15,Proportional Reasoning,Cognitive,Setting up and solving a ratio to find an unknown value
+16,Perfect Square Roots,Functional,Identifying square roots of 1 through 144 instantly
+17,Basic Factoring,Cognitive,Finding the greatest common factor in a simple binomial
+18,Unit Conversion,Functional,Moving between metric units using powers of ten
+19,Literal Equations,Cognitive,Rearranging a formula to solve for a specific variable
+20,Logical Estimation,Cognitive,Predicting an answer's range before calculating to catch errors
 
