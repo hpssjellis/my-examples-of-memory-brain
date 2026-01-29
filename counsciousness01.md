@@ -389,3 +389,14 @@ If you want, we can go deeper in any direction:
 - Compare your framework to quantum measurement theory
 - Explore biological implications (nervous system, evolution, cognition)
 Just tell me which direction you want to explore next.
+
+
+
+
+
+lets talk more about a folding spherical surface that can have it's vibration set by some kind of controllable oscillator. How would that be possible and what sensors might be able to detect any interesting data
+
+
+
+
+
